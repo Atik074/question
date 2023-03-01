@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and Ans</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-3xl text-blue-500 font-semibold text-center mt-10 underline">Wellcome to this section Question And Answer</h1>
+    </header>
+    <main>
+        <section class="bg-purple-500			rounded	 p-10 m-10">
+            <div class="text-2xl font-semibold text-white">
+                <h2 class="text-amber-300 mb-2">01.What is Dom and What is the purpose of Dom ?</h2>
+                <p class="text-lime-400 mb-5">Ans:The Document Object Model is short from Of DOM.It accesse any HTML element and we can change it  by DOM.We can change and interact a website by this language</p>
+                <h2 class="text-amber-300 mb-2">02.How will you select HTML elements using Dom ? Name the Dom methods.</h2>
+                <p class="text-lime-400 mb-5">Ans: We can select any HTML element by her Id name that is unique or tag name or class name or query selector and query selector All.
+                    DOM methods are given below :
+                        <div class="m-5 text-lime-400">
+                        <li>getElementById</li>
+                        <li>getElementByTagName</li>
+                        <li>getElementByClassName</li>
+                        <li>querySelector</li>
+                        <li>querySelectorAll</li>
+                        </div>
+                        
+
+                    
+                </p>
+                <h2 class="text-amber-300 mb-2">03.What is event bubble ?</h2>
+        
+            <p class="text-lime-400 mb-5">Ans:The event bubble is a concept of document object model.StopPotagatio is a event of event bubble.the event are move from top to bottom or bottom to top</p>
+                <h2 class="text-amber-300 mb-2">04.What is a call back function and why will you use it </h2>
+                <p class="text-lime-400 mb-5">Ans:Call back function is a function where one function passed to another function as like as parameter and done a successful operation.To remove code repitation and decorated code and fast load website we should use call back function</p>
+            </div>
+
+            <button id="Previous-page" class=" text-xl px-5 py-3 bg-blue-500 font-bold text-white rounded" >Go Previous Page</button>
+            
+
+        </section>
+    </main>
+
+
+    <script>
+        document.getElementById('Previous-page').addEventListener('click',function(){
+            window.location.href = 'http://aback-crate.surge.sh/'
+        })
+    </script>
+    
+</body>
+</html>
